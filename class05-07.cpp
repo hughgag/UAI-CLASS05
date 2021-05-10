@@ -16,19 +16,20 @@ int main(int argc, char const *argv[])
     R1=A+B;R2=C+D;
 
     
-    if (R1==R2)
-    {
-        printf("R1 y R2 son iguales\n");
-    }
-    else {
+    
         if (R1>R2)
         {
             printf("Suma 1 es mayor que suma 2\n");
         }
-        else 
-        { 
+        else if (R1<R2)
+        {
             printf("Suma 2 es mayor que suma 1\n");
         }
+        else
+        {
+            printf("Ambas sumas son iguales\n");
+        } 
+        
     }
  
     
