@@ -4,8 +4,8 @@
 
 int main(int argc, char const *argv[])
 {
-	int HorasTrabajadas=0,Categoria=0,Total=0;
-	printf("Ingrese horas trabajadas: ");
+    int HorasTrabajadas=0,Categoria=0,Total=0;
+    printf("Ingrese horas trabajadas: ");
     scanf("%d",&HorasTrabajadas);
     printf("Ingrese Categoría: ");
     scanf("%d",&Categoria);
